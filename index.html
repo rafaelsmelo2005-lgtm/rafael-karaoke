@@ -1,38 +1,26 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', {
-    ad_storage: 'granted',
-    ad_user_data: 'granted',
-    ad_personalization: 'granted',
-    analytics_storage: 'granted'
-});
-gtag('consent', 'default', {
-    ad_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied',
-    analytics_storage: 'denied',
-    wait_for_update: 2000,
-    region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']
-});
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-81E2J5SR0K"></script>
-<script>
-  gtag('js', new Date());
-  gtag('config', 'G-81E2J5SR0K');
-</script>
-    <meta name="robots" content="noindex, nofollow">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael-Karaoke | Cantar Karaokê e Videokê Online Grátis com Pontuação</title>
-
-    <meta name="description" content="Cante karaokê e videokê online grátis com Rafael: letra na tela, pontuação por votação dos amigos, fila pelo celular e ranking da festa. Sem baixar nada.">
+    <title>Rafael-Karaoke | Cantar Online Grátis</title>
+    <meta name="description" content="Cante karaokê online grátis com Rafael: letra na tela, pontuação, fila e ranking da festa.">
     <meta name="author" content="Rafael-Karaoke">
+    <meta name="robots" content="noindex, nofollow">
 
-    <link rel="canonical" href="https://caraoke.com.br/player">
+    <!-- React 18 & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel para JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- YouTube IFrame API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Rafael-Karaoke">
-    <meta property="og:locale
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+        * { margin
